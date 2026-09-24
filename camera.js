@@ -118,3 +118,10 @@ async function lastOppBilde(blob) {
 
     melding.textContent = "Takk!";
 }
+
+document.getElementById("kamera").style.display = "none";
+document.getElementById("bilde").style.display = "none";
+document.getElementById("melding").style.display = "none";
+document.getElementById("overskrift").style.display = "none";
+
+document.getElementById("takk-side").style.display = "block";
