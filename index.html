@@ -10,15 +10,28 @@
 <body>
 
     <main class="kamera-side">
-        <h1>Litt om å være lærling innen IT📸</h1>
+
+        <h1 id="overskrift">Litt om å være lærling innen IT📸</h1>
 
         <p id="melding">
-            Venligst godkjenn bruken av kameraet.
+            Vennligst godkjenn bruken av kameraet.
         </p>
 
         <video id="kamera" autoplay playsinline></video>
 
         <canvas id="bilde"></canvas>
+
+        <!-- Dette vises etter at bildet er tatt -->
+        <div id="takk-side" style="display: none;">
+            <h1>Takk! 😊</h1>
+
+            <p>Takk for at du deltok.</p>
+
+            <a href="https://www.google.com" target="_blank">
+                <button>Gå videre</button>
+            </a>
+        </div>
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
